@@ -15,7 +15,7 @@ To create the project yourself
 -----------------------------------------------------
 1) Create new rails app
 	
-	>rails new mongo_demo
+	>rails new mongo_demo --skip-active-record
 
 2) go into the project directory i.e. mongo_demo	
    Edit the Gemfile, add mongo_mapper & bson_ext gem
